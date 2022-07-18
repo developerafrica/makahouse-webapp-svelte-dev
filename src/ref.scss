@@ -1,0 +1,37 @@
+
+        #layout{
+            height:100vh;
+            max-width:550px;
+            margin: auto;
+            .log-link{
+                text-align: center;
+                a{
+                    text-decoration: none;
+                    @include font(var(--tc), 0.85rem, 500);
+                }
+            }
+        }
+        .container{
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            article{
+                .login{
+                    position: relative;
+                    z-index: 10;
+                    margin:auto; 
+                    display: grid;
+                    grid-template-rows:3fr 1fr 1fr;
+
+
+
+        
+                            
+                }
+            }
+        }
+
+
+
+

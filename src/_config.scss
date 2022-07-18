@@ -1,0 +1,33 @@
+:root {
+    --bg-we: white;
+    --nv: #FCFCFC;
+    --dpc:#970c48 ;
+    --mpc:#ED1E79;
+    --lpc:#FBCAE1;
+    --dbc:#3E7B80;
+    --mbc:#63C5CD;
+    --lbc-1:#B3CBCD;
+    --lbc-2:#E0F4F5;
+    
+    // re-brand colors
+    --tc: #707070;
+    --bk: black;
+    --gd: #e69c31;
+    --we: white;
+    --bl: #0C99FF;
+    --f-bl: #DFF2FF;
+    --d-bl: hsl(205, 100%, 25%);
+    //preload svg - 1
+    --sg-bfl: hsl(205, 100%, 25%);
+    //preload svg - 2
+    --sg-sw: hsl(205, 100%, 20%);
+    --sg-fl: #e69b31cb;
+
+}
+
+@mixin font($c,$s,$w){
+    color: $c;
+    font-size: $s;
+    font-weight: $w;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
